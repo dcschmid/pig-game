@@ -1,0 +1,48 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+active	style.css	/^.active .player-name { font-weight: 300; }$/;"	c
+active	style.css	/^.active .player-name::after {$/;"	c
+active	style.css	/^.active { background-color: #f7f7f7; }$/;"	c
+activePlayer	app.js	/^var scores, roundScore, activePlayer, gamePlaying;$/;"	V
+activePlayer	challenges.js	/^var scores, roundScore, activePlayer, gamePlaying, lastDice;$/;"	V
+body	style.css	/^body {$/;"	t
+btn-hold	style.css	/^.btn-hold { top: 467px;}$/;"	c
+btn-new	style.css	/^.btn-new { top: 45px;}$/;"	c
+btn-roll	style.css	/^.btn-roll { top: 403px;}$/;"	c
+button	style.css	/^button {$/;"	t
+clearfix	style.css	/^.clearfix::after {$/;"	c
+dice	style.css	/^.dice {$/;"	c
+dice-1	style.css	/^#dice-1 { top: 120px; }$/;"	i
+dice-2	style.css	/^#dice-2 { top:  250px; }/;"	i
+final-score	style.css	/^.final-score {$/;"	c
+final-score	style.css	/^.final-score:focus {$/;"	c
+i	style.css	/^i {$/;"	t
+if	app.js	/^    if(dice != 1) {$/;"	M
+if	app.js	/^    if(scores[activePlayer] >= 100) {$/;"	M
+if	app.js	/^  if(gamePlaying) {$/;"	M
+if	challenges.js	/^    if(dice1 !== 1 && dice2 !== 1) {$/;"	M
+if	challenges.js	/^    if(input) {$/;"	M
+if	challenges.js	/^    if(scores[activePlayer] >= winningScore) {$/;"	M
+if	challenges.js	/^  if(gamePlaying) {$/;"	M
+init	app.js	/^function init() {$/;"	F
+init	challenges.js	/^function init() {$/;"	F
+nextPlayer	app.js	/^function nextPlayer() {$/;"	F
+nextPlayer	challenges.js	/^function nextPlayer() {$/;"	F
+player-0-panel	style.css	/^.player-0-panel,$/;"	c
+player-1-panel	style.css	/^.player-1-panel {$/;"	c
+player-current-box	style.css	/^.player-current-box {$/;"	c
+player-current-label	style.css	/^.player-current-label {$/;"	c
+player-current-score	style.css	/^.player-current-score {$/;"	c
+player-name	style.css	/^.player-name {$/;"	c
+player-score	style.css	/^.player-score {$/;"	c
+roundScore	app.js	/^var scores, roundScore, activePlayer, gamePlaying;$/;"	V
+roundScore	challenges.js	/^var scores, roundScore, activePlayer, gamePlaying, lastDice;$/;"	V
+scores	app.js	/^var scores, roundScore, activePlayer, gamePlaying;$/;"	V
+scores	challenges.js	/^var scores, roundScore, activePlayer, gamePlaying, lastDice;$/;"	V
+winner	style.css	/^.winner .player-name { font-weight: 300; color: #EB4D4D; }$/;"	c
+winner	style.css	/^.winner { background-color: #f7f7f7; }$/;"	c
+wrapper	style.css	/^.wrapper {$/;"	c
