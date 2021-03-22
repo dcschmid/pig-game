@@ -1,48 +1,65 @@
 !_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
 !_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
-!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
-!_TAG_PROGRAM_NAME	Exuberant Ctags	//
-!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
-!_TAG_PROGRAM_VERSION	5.8	//
-active	style.css	/^.active .player-name { font-weight: 300; }$/;"	c
-active	style.css	/^.active .player-name::after {$/;"	c
-active	style.css	/^.active { background-color: #f7f7f7; }$/;"	c
-activePlayer	app.js	/^var scores, roundScore, activePlayer, gamePlaying;$/;"	V
-activePlayer	challenges.js	/^var scores, roundScore, activePlayer, gamePlaying, lastDice;$/;"	V
-body	style.css	/^body {$/;"	t
-btn-hold	style.css	/^.btn-hold { top: 467px;}$/;"	c
-btn-new	style.css	/^.btn-new { top: 45px;}$/;"	c
-btn-roll	style.css	/^.btn-roll { top: 403px;}$/;"	c
-button	style.css	/^button {$/;"	t
-clearfix	style.css	/^.clearfix::after {$/;"	c
-dice	style.css	/^.dice {$/;"	c
-dice-1	style.css	/^#dice-1 { top: 120px; }$/;"	i
-dice-2	style.css	/^#dice-2 { top:  250px; }/;"	i
-final-score	style.css	/^.final-score {$/;"	c
-final-score	style.css	/^.final-score:focus {$/;"	c
-i	style.css	/^i {$/;"	t
-if	app.js	/^    if(dice != 1) {$/;"	M
-if	app.js	/^    if(scores[activePlayer] >= 100) {$/;"	M
-if	app.js	/^  if(gamePlaying) {$/;"	M
-if	challenges.js	/^    if(dice1 !== 1 && dice2 !== 1) {$/;"	M
-if	challenges.js	/^    if(input) {$/;"	M
-if	challenges.js	/^    if(scores[activePlayer] >= winningScore) {$/;"	M
-if	challenges.js	/^  if(gamePlaying) {$/;"	M
-init	app.js	/^function init() {$/;"	F
-init	challenges.js	/^function init() {$/;"	F
-nextPlayer	app.js	/^function nextPlayer() {$/;"	F
-nextPlayer	challenges.js	/^function nextPlayer() {$/;"	F
-player-0-panel	style.css	/^.player-0-panel,$/;"	c
-player-1-panel	style.css	/^.player-1-panel {$/;"	c
-player-current-box	style.css	/^.player-current-box {$/;"	c
-player-current-label	style.css	/^.player-current-label {$/;"	c
-player-current-score	style.css	/^.player-current-score {$/;"	c
-player-name	style.css	/^.player-name {$/;"	c
-player-score	style.css	/^.player-score {$/;"	c
-roundScore	app.js	/^var scores, roundScore, activePlayer, gamePlaying;$/;"	V
-roundScore	challenges.js	/^var scores, roundScore, activePlayer, gamePlaying, lastDice;$/;"	V
-scores	app.js	/^var scores, roundScore, activePlayer, gamePlaying;$/;"	V
-scores	challenges.js	/^var scores, roundScore, activePlayer, gamePlaying, lastDice;$/;"	V
-winner	style.css	/^.winner .player-name { font-weight: 300; color: #EB4D4D; }$/;"	c
-winner	style.css	/^.winner { background-color: #f7f7f7; }$/;"	c
-wrapper	style.css	/^.wrapper {$/;"	c
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/data/websites/pig-game/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+#dice-1	style.css	/^#dice-1 { top: 120px; }$/;"	i
+#dice-2	style.css	/^#dice-2 { top:  250px; }$/;"	i
+*	style.css	/^* {$/;"	s
+.active	style.css	/^.active { background-color: #f7f7f7; }$/;"	c
+.active .player-name	style.css	/^.active .player-name { font-weight: 300; }$/;"	c
+.active .player-name::after	style.css	/^.active .player-name::after {$/;"	c
+.btn-hold	style.css	/^.btn-hold { top: 467px;}$/;"	c
+.btn-new	style.css	/^.btn-new { top: 45px;}$/;"	c
+.btn-roll	style.css	/^.btn-roll { top: 403px;}$/;"	c
+.clearfix::after	style.css	/^.clearfix::after {$/;"	c
+.dice	style.css	/^.dice {$/;"	c
+.final-score	style.css	/^.final-score {$/;"	c
+.final-score:focus	style.css	/^.final-score:focus {$/;"	c
+.player-0-panel	style.css	/^.player-0-panel,$/;"	c
+.player-1-panel	style.css	/^.player-1-panel {$/;"	c
+.player-current-box	style.css	/^.player-current-box {$/;"	c
+.player-current-label	style.css	/^.player-current-label {$/;"	c
+.player-current-score	style.css	/^.player-current-score {$/;"	c
+.player-name	style.css	/^.player-name {$/;"	c
+.player-score	style.css	/^.player-score {$/;"	c
+.winner	style.css	/^.winner { background-color: #f7f7f7; }$/;"	c
+.winner .player-name	style.css	/^.winner .player-name { font-weight: 300; color: #EB4D4D; }$/;"	c
+.wrapper	style.css	/^.wrapper {$/;"	c
+AnonymousFunctiona3d582260100	challenges.js	/^document.querySelector('.btn-roll').addEventListener('click', function() {$/;"	f
+AnonymousFunctiona3d582260200	challenges.js	/^document.querySelector('.btn-hold').addEventListener('click', function() {$/;"	f
+AnonymousFunctionf24c5e710100	app.js	/^document.querySelector(".btn-roll").addEventListener("click", function () {$/;"	f
+AnonymousFunctionf24c5e710200	app.js	/^document.querySelector(".btn-hold").addEventListener("click", function () {$/;"	f
+activePlayer	app.js	/^var scores, roundScore, activePlayer, gamePlaying;$/;"	v
+activePlayer	challenges.js	/^var scores, roundScore, activePlayer, gamePlaying, lastDice;$/;"	v
+body	style.css	/^body {$/;"	s
+button	style.css	/^button {$/;"	s
+button:focus	style.css	/^button:focus {$/;"	s
+button:hover	style.css	/^button:hover { font-weight: 600; }$/;"	s
+button:hover i	style.css	/^button:hover i { margin-right: 20px; }$/;"	s
+current-0	index.html	/^                    <div class="player-current-score" id="current-0">11<\/div>$/;"	I
+current-1	index.html	/^                    <div class="player-current-score" id="current-1">0<\/div>$/;"	I
+dice-1	index.html	/^            <img src="dice-5.png" alt="Dice" class="dice" id="dice-1">$/;"	I
+dice-2	index.html	/^            <img src="dice-5.png" alt="Dice" class="dice" id="dice-2">$/;"	I
+gamePlaying	app.js	/^var scores, roundScore, activePlayer, gamePlaying;$/;"	v
+gamePlaying	challenges.js	/^var scores, roundScore, activePlayer, gamePlaying, lastDice;$/;"	v
+i	style.css	/^i {$/;"	s
+init	app.js	/^function init() {$/;"	f
+init	challenges.js	/^function init() {$/;"	f
+lastDice	challenges.js	/^var scores, roundScore, activePlayer, gamePlaying, lastDice;$/;"	v
+name-0	index.html	/^                <div class="player-name" id="name-0">Player 1<\/div>$/;"	I
+name-1	index.html	/^                <div class="player-name" id="name-1">Player 2<\/div>$/;"	I
+nextPlayer	app.js	/^function nextPlayer() {$/;"	f
+nextPlayer	challenges.js	/^function nextPlayer() {$/;"	f
+roundScore	app.js	/^var scores, roundScore, activePlayer, gamePlaying;$/;"	v
+roundScore	challenges.js	/^var scores, roundScore, activePlayer, gamePlaying, lastDice;$/;"	v
+score-0	index.html	/^                <div class="player-score" id="score-0">43<\/div>$/;"	I
+score-1	index.html	/^                <div class="player-score" id="score-1">72<\/div>$/;"	I
+scores	app.js	/^var scores, roundScore, activePlayer, gamePlaying;$/;"	v
+scores	challenges.js	/^var scores, roundScore, activePlayer, gamePlaying, lastDice;$/;"	v
