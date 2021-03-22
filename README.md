@@ -1,5 +1,7 @@
 # pig-game
 
+A simple 2 player game, created with HTML5, CSS and pure JS.
+
 ![alt Pig Game](https://github.com/dcschmid/pig-game/blob/master/Pig%20Fame.png)
 
 ## GAME RULES:
@@ -9,4 +11,4 @@
 - The player can choose to 'HOLD' which means that his ROUND score gets added to his GLOBAL score. After that , it' the next players turn.
 -  The first player to reach 100 points on GLOBAL score wins the game.
 
-## 
+You can play it here https://piggame.danschmid.de/
